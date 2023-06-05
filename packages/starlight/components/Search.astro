@@ -10,7 +10,7 @@ interface Props {
 const t = useTranslations(Astro.props.locale);
 ---
 
-<site-search>
+<site-search class="print-hidden">
   <button data-open-modal disabled>
     {
       /* The span is `aria-hidden` because it is not shown on small screens. Instead, the icon label is used for accessibility purposes. */
